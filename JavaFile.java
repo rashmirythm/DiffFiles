@@ -31,8 +31,13 @@ public class JavaFile {
 	public void insertionSort(int arr[], int n)
 	{
 	   int i, key, j;
+	 
 	   for (i = 1; i < n; i++)
 	   {
+		   if(j<0)
+		   {
+			   System.out.println("j less than 0");
+		   }
 	       key = arr[i];
 	       j = i-1;
 	       while (j >= 0 && arr[j] > key)
