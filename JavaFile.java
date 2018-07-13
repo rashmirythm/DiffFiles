@@ -57,4 +57,24 @@ public class JavaFile {
 		   System.out.println(arr[i]);
 	   }
 	}
+	
+	
+	public void casestatements()
+	{
+		String Branch = "CSE";
+        int year = 2;
+         
+        switch(year)
+        {
+            case 1 :
+                System.out.println("elective courses : Advance english, Algebra");
+                break;
+            case 2:
+                System.out.println("2nd choice");
+                break;
+            default:
+            	System.out.println("Invalid");
+        }
+	}
+	
 } 
