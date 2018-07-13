@@ -101,3 +101,4 @@ public class JavaFile2 {
 		int cube = num * num;
 		return cube;
 	}
+}
