@@ -52,5 +52,9 @@ public class JavaFile {
 	       }
 	       arr[j+1] = key;
 	   }
+	   for(int i=0;i<n;i++)
+	   {
+		   System.out.println(arr[i]);
+	   }
 	}
 } 
