@@ -109,4 +109,11 @@ public class JavaFile2 {
 		int cube = num * num;
 		return cube;
 	}
+	
+	public static int findsum(int num1, int num2)
+	{
+		
+		int sum = num1 * num2;
+		return sum;
+	}
 }
