@@ -21,14 +21,7 @@ public class JavaFile {
 		return cube;
 	}
 	
-	public static int finddiff(int num1, int num2)
-	{
-		
-		int diff = num1 - num2;
-		return diff;
-		
-		
-	}
+	
 	
 	public static int factorial(int n){      
         if (n == 1)      
