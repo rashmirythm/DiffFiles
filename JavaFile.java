@@ -14,12 +14,7 @@ public class JavaFile {
         return max; 
     }  
 	
-	public static int findCube(int num)
-	{
-		int x=0;
-		int cube = num * num * num;
-		return cube;
-	}
+	
 	
 	
 	
