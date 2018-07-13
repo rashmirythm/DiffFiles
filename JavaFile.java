@@ -95,6 +95,14 @@ public class JavaFile {
 public class JavaFile2 {  
 	    
 	
+	 class LocalInnerClass {
+         public void printLocalInnerClass() {
+             System.out.println("A new local inner class!");
+             System.out.println("Hiiii");
+         }
+     }
+     
+	
 	public static int findsquare(int num)
 	{
 		int x=0;
