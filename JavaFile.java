@@ -27,10 +27,7 @@ public class JavaFile {
 		int diff = num1 - num2;
 		return diff;
 		
-		for(int i=0;i<diff;i++)
-		{
-			System.out.println("diff is less than "+i);
-		}
+		
 	}
 	
 	public static int factorial(int n){      
