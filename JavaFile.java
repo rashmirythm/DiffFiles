@@ -134,10 +134,5 @@ public class JavaFile2 {
 		return sum;
 	}
 	
-	public static int factorial1(int n){      
-        if (n == 1)      
-          return 1;      
-        else      
-          return(n * factorial(n-1));      
-  }
+	
 }
