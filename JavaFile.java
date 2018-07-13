@@ -63,15 +63,28 @@ public class JavaFile {
 	{
 		String Branch = "CSE";
         int year = 2;
+        int day = 3;
          
         switch(year)
         {
             case 1 :
-                System.out.println("elective courses : Advance english, Algebra");
+                System.out.println("1st choice");
                 break;
             case 2:
                 System.out.println("2nd choice");
                 break;
+            case 3:
+            	switch(day)
+                {
+                    case 1 :
+                        System.out.println("1st sub choice");
+                        break;
+                    case 2:
+                        System.out.println("2nd sub choice");
+                        break;
+                    default:
+                    	System.out.println("Invalid");
+                }
             default:
             	System.out.println("Invalid");
         }
