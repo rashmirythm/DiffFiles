@@ -97,7 +97,7 @@ public class JavaFile2 {
 	
 	public static int findsquare(int num)
 	{
-		int x=0
+		int x=0;
 		int cube = num * num;
 		return cube;
 	}
